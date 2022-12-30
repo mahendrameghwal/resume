@@ -1,0 +1,40 @@
+
+body{
+    font-size: 16px;
+   
+      padding: 0 30px;
+      width:80%;
+      margin: 0 auto;
+    
+    }
+    .container{
+      border-style: dashed;
+      padding: 10px;
+      
+    }
+    .intro{
+    
+      text-align: center;
+    }
+    .contact span{
+    padding: 0 10px;
+    font-weight: 500;
+    }
+    .work-exp-detail{
+      margin-left: 40px;
+      text-align: left;
+      margin: 20px 40px;
+    }
+    .skill span{
+    padding: 20px 30px;
+    }
+    .row-flex{
+    background-color: hsl(0, 0%, 97%);
+      display: flex;
+      justify-content: space-between;
+    }
+    @media screen and (max-width:700px) {
+      .contact span{
+        font-size: 0.7rem;
+      }
+    }
