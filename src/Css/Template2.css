@@ -5,7 +5,8 @@
 .temp2-container{
     font: 1em sans-serif;
     border: 2px solid black;
-   
+    width: 80%;
+   margin: 0 auto;
    
 
 }

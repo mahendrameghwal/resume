@@ -1,0 +1,137 @@
+.temp1-container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.temp1-heading {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.temp1-input-container {
+  margin: 0 auto;
+  display: block;
+  text-align: left;
+}
+.inputs {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.Summary {
+  width: 74%;
+  margin: auto;
+}
+/* .company{
+    background-color: red;
+    width: 100%;
+} */
+.Summary textarea {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+.names,
+.contact,
+.Address {
+  text-align: center;
+}
+.inputs ::placeholder {
+  font-size: 1.1rem;
+}
+.names input,
+.contact input,
+.Address input,
+.company {
+  height: 40px;
+  width: 35%;
+  margin: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.Address .inner-head {
+  padding: 10px 0;
+}
+.company {
+  width: 100%;
+  margin: 0;
+}
+.employment {
+  width: 80%;
+  margin: auto;
+}
+.inner-head {
+  width: 74%;
+  font-size: 1rem;
+  margin: auto;
+  text-align-last: left;
+  font-weight: 600;
+}
+.Summary .inner-head {
+  margin: 10px 0;
+  width: 100%;
+}
+.submit-btn {
+  width: 300px;
+  padding: 10px 40px;
+  margin: 40px 0;
+  background: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.submit-btn:active {
+  transform: scale(89%);
+}
+
+@media screen and (max-width: 750px) {
+  .temp1-heading {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .temp1-input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .names input,
+  .contact input,
+  .Address input {
+    height: 35px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1rem;
+
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .inner-head {
+    width: 100%;
+    font-size: 1rem;
+
+    margin: 5px 0;
+    font-weight: 600;
+    text-align-last: left;
+  }
+  .Summary {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Summary textarea {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+}
